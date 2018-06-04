@@ -18,6 +18,7 @@ namespace RegistroExamen
         public MainForm()
         {
             InitializeComponent();
+
         }
 
         private void registrarArticuloToolStripMenuItem_Click(object sender, EventArgs e)
