@@ -4,17 +4,24 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RegistroExamen.Entidades;
 
-namespace RegistroExamen
+namespace RegistroExamen.UI.Consultas
 {
-    public partial class Form1 : Form
+    public partial class Consultar : Form
     {
-        public Form1()
+        public Consultar()
         {
             InitializeComponent();
+        }
+
+        private void btn_Consultar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
